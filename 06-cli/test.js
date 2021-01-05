@@ -58,5 +58,4 @@ describe('Hero manipulation Suit', () => {
     const resultado = await database.remover(DEFAULT_ITEM_CADASTRAR.id)
     deepStrictEqual(resultado, expected)
   })
-
 })
